@@ -152,6 +152,7 @@ You can also install plugins without any plugin manager (vim 8+ required):
 * Clone the plugin that you want in that directory, for example:\
 `git clone --depth=1 git://github.com/maxmellon/vim-jsx-pretty  ~/.vim_runtime/pack/plugins/start/vim-jsx-pretty`
 
+Or can directly add the plugin in the plugin github address at the ~/.vim_runtim/update_plugins.py and run it. It will directly help you to download and install that plugin.  
 
 ## Key Mappings
 
