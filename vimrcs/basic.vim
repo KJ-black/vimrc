@@ -52,6 +52,17 @@ nmap <leader>w :w!<cr>
 " (useful for handling the permission-denied error)
 command! W execute 'w !sudo tee % > /dev/null' <bar> edit!
 
+" F2 to switch paste mode
+map <F2> :setlocal paste!<cr
+
+" F3 to switch number of line
+nnoremap <F3> :set number!<CR>
+
+" enable use mouse in vim
+set mouse=a
+
+" enable number of line first
+set nu
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM user interface
