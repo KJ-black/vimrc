@@ -27,7 +27,6 @@ au FileType javascript setl fen
 au FileType javascript setl nocindent
 
 au FileType javascript,typescript imap <C-t> console.log();<esc>hi
-au FileType javascript,typescript imap <C-a> alert();<esc>hi
 
 au FileType javascript,typescript inoremap <buffer> $r return 
 au FileType javascript,typescript inoremap <buffer> $f // --- PH<esc>FP2xi
