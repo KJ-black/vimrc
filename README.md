@@ -105,7 +105,8 @@ I recommend reading the docs of these plugins to understand them better. Each pl
 * [gist-vim](https://github.com/mattn/gist-vim) Easily create gists from Vim using the `:Gist` command
 * [vim-indent-guides](https://github.com/nathanaelkane/vim-indent-guides) Is a plugin for visually displaying indent levels in Vim
 * [editorconfig-vim](https://github.com/editorconfig/editorconfig-vim) EditorConfig helps maintain consistent coding styles for multiple developers working on the same project across various editors and IDEs.
-
+* [NERDCommenter](https://github.com/preservim/nerdcommenter) NERD Commenter helps you to easily comment/uncomment your program code.
+* [tagbar](https://github.com/preservim/tagbar) Tagbar helps you to display all the variables and functions of your program.
 
 ## Included color schemes
 
@@ -152,7 +153,7 @@ You can also install plugins without any plugin manager (vim 8+ required):
 * Clone the plugin that you want in that directory, for example:\
 `git clone --depth=1 git://github.com/maxmellon/vim-jsx-pretty  ~/.vim_runtime/pack/plugins/start/vim-jsx-pretty`
 
-Or can directly add the plugin in the plugin github address at the ~/.vim_runtim/update_plugins.py and run it. It will directly help you to download and install that plugin.  
+Or can directly add the plugin in the plugin github address at the ~/.vim_runtim/update_plugins.py and run it. It will directly help you to download and install that plugin to the path that pathogen set.
 
 ## Key Mappings
 

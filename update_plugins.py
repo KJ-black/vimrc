@@ -65,6 +65,7 @@ mru.vim https://github.com/vim-scripts/mru.vim
 editorconfig-vim https://github.com/editorconfig/editorconfig-vim
 dracula https://github.com/dracula/vim
 nerdcommenter https://github.com/preservim/nerdcommenter
+tagbar https://github.com/preservim/tagbar
 """.strip()
 
 GITHUB_ZIP = "%s/archive/master.zip"

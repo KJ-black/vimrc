@@ -78,6 +78,10 @@ let g:snipMate = { 'snippet_version' : 1 }
 let Grep_Skip_Dirs = 'RCS CVS SCCS .svn generated'
 set grepprg=/bin/grep\ -nH
 
+""""""""""""""""""""""""""""""
+" => tagbar
+""""""""""""""""""""""""""""""
+map F :TagbarToggle<CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Nerd Tree
