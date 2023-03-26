@@ -53,7 +53,7 @@ nmap <leader>w :w!<cr>
 command! W execute 'w !sudo tee % > /dev/null' <bar> edit!
 
 " F2 to switch paste mode
-map <F2> :setlocal paste!<cr
+map <F2> :setlocal paste!<cr>
 
 " F3 to switch number of line
 nnoremap <F3> :set number!<CR>
