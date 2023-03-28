@@ -93,14 +93,20 @@ let g:NERDTreeWinSize=35
 map <leader>nn :NERDTreeToggle<cr>
 map <leader>nb :NERDTreeFromBookmark<Space>
 map <leader>nf :NERDTreeFind<cr>
-" let NERDTreeMapOpenInTab='<ENTER>' 
-" let NERDTreeMapActiveteNode='v'
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Nerd Commentor
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+inoremap <C-_> <C-o>:call nerdcommenter#Comment(0,"toggle")<CR> 
+nnoremap <C-_> :call nerdcommenter#Comment(0,"toggle")<CR>
+
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => vim-multiple-cursors
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:multi_cursor_use_default_mapping=0
-
+                            
 " Default mapping
 let g:multi_cursor_start_word_key      = '<C-s>'
 let g:multi_cursor_select_all_word_key = '<A-s>'
